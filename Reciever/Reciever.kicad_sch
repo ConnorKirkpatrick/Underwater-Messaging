@@ -1346,7 +1346,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "LM386MX-1_NOPB:LM386MX-1_NOPB"
+		(symbol "LM386MX-1_NOPB_1"
 			(pin_names
 				(offset 1.016)
 			)
@@ -1479,10 +1479,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM386MX-1_NOPB_0_0"
+			(symbol "LM386MX-1_NOPB_1_0_0"
 				(rectangle
-					(start -12.7 -12.7)
-					(end 12.7 12.7)
+					(start -12.7 12.7)
+					(end 12.7 -12.7)
 					(stroke
 						(width 0.41)
 						(type default)
@@ -1528,7 +1528,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
+					(at -17.78 -1.27 0)
 					(length 5.08)
 					(name "GAIN"
 						(effects
@@ -1546,7 +1546,7 @@
 					)
 				)
 				(pin input line
-					(at -17.78 0 0)
+					(at -17.78 -7.62 0)
 					(length 5.08)
 					(name "GAIN"
 						(effects
@@ -2570,6 +2570,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 95.25) (xy 71.12 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075288fc-139d-4e86-8d8b-62f3ea940597")
+	)
+	(wire
+		(pts
 			(xy 19.05 97.79) (xy 43.18 97.79)
 		)
 		(stroke
@@ -2577,6 +2587,16 @@
 			(type default)
 		)
 		(uuid "10bcb3da-575a-4c9e-9750-9e404a3b0d15")
+	)
+	(wire
+		(pts
+			(xy 71.12 72.39) (xy 62.23 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1989511a-342a-4820-bfb6-3d763239541d")
 	)
 	(wire
 		(pts
@@ -2820,6 +2840,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 72.39) (xy 62.23 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0fbe7d5-591f-40d9-842f-9a75f450f9ec")
+	)
+	(wire
+		(pts
+			(xy 62.23 95.25) (xy 71.12 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4daa13a-fbfb-4d60-80b5-dcf54f8666b3")
+	)
+	(wire
+		(pts
 			(xy 35.56 43.18) (xy 35.56 41.91)
 		)
 		(stroke
@@ -3001,172 +3041,6 @@
 			(project ""
 				(path "/5f921302-c669-4128-a0df-4e379c2479fa"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "LM386MX-1_NOPB:LM386MX-1_NOPB")
-		(at 88.9 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0cd9f2ce-9261-4e9f-bf0c-b93b8ba2fe09")
-		(property "Reference" "U1"
-			(at 88.9 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM386MX-1_NOPB"
-			(at 88.9 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LM386MX-1_NOPB:SOIC127P599X175-8N"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Texas Instruments"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "700-mW, mono, 5- to 18-V, analog input Class-AB audio amplifier"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "SOIC-8 Texas Instruments"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM386MX-1/NOPB/Texas+Instruments/view-part/?ref=snap"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "LM386MX-1/NOPB"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/LM386MX-1/NOPB/Texas+Instruments/view-part/?ref=eda"
-			(at 88.9 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "247f9a61-a659-4f92-9c6f-d783d1843574")
-		)
-		(pin "6"
-			(uuid "b0b66637-67ec-4e11-96ad-cedfd82ae17a")
-		)
-		(pin "2"
-			(uuid "b32690bf-aa59-4305-8daf-169a51431d52")
-		)
-		(pin "1"
-			(uuid "5b60c89d-2c84-4275-8049-e91e36e40aca")
-		)
-		(pin "5"
-			(uuid "1838236c-cd73-4982-9766-e7a364383cc3")
-		)
-		(pin "7"
-			(uuid "6a00fb26-b15d-4b97-bfed-b69e7f84cdf9")
-		)
-		(pin "8"
-			(uuid "14cfafff-57ad-4fbf-8378-498e291f3913")
-		)
-		(pin "3"
-			(uuid "c1a0de8e-4577-49a2-952c-7b371416d262")
-		)
-		(instances
-			(project ""
-				(path "/5f921302-c669-4128-a0df-4e379c2479fa"
-					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3563,16 +3437,16 @@
 	)
 	(symbol
 		(lib_id "1206W4F1002T5E:1206W4F1002T5E")
-		(at 43.18 80.01 270)
+		(at 62.23 85.09 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
-		(uuid "49753a82-5c13-411e-b23e-519758590270")
-		(property "Reference" "R1"
-			(at 46.99 78.7399 90)
+		(uuid "457f1a88-ca6f-47c7-8578-3214c9236be1")
+		(property "Reference" "R2"
+			(at 66.04 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,7 +3455,197 @@
 			)
 		)
 		(property "Value" "1206W4F1002T5E"
-			(at 46.99 81.2799 90)
+			(at 66.04 86.3599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "1206W4F1002T5E:RESC3115X65N"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Uni-Royal"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.65mm"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206-2 ROYAL"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/1206W4F1002T5E/Uni-Royal/view-part/?ref=eda"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "IPC-7351B"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "V3"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/1206W4F1002T5E/Uni-Royal/view-part/?ref=snap"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "1206W4F1002T5E"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "10K Ohm 1/4W Thick Film Resistor 1206 Chip - Surface Mount"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "Not in stock"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Uni-Royal"
+			(at 62.23 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8755f846-825f-48a8-b9db-9ae56edc8a93")
+		)
+		(pin "2"
+			(uuid "3dc808cf-ef05-42af-ba42-30df85bc3658")
+		)
+		(instances
+			(project "Reciever"
+				(path "/5f921302-c669-4128-a0df-4e379c2479fa"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1206W4F1002T5E:1206W4F1002T5E")
+		(at 43.18 80.01 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "49753a82-5c13-411e-b23e-519758590270")
+		(property "Reference" "R1"
+			(at 37.846 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1206W4F1002T5E"
+			(at 23.368 82.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4324,6 +4388,174 @@
 			(project "Reciever"
 				(path "/5f921302-c669-4128-a0df-4e379c2479fa"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "LM386MX-1_NOPB_1")
+		(lib_id "LM386MX-1_NOPB:LM386MX-1_NOPB")
+		(at 88.9 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc02e3c7-1ef4-4ec8-87ce-e4d74461875e")
+		(property "Reference" "U1"
+			(at 88.9 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM386MX-1_NOPB"
+			(at 88.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LM386MX-1_NOPB:SOIC127P599X175-8N"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "700-mW, mono, 5- to 18-V, analog input Class-AB audio amplifier"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOIC-8 Texas Instruments"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LM386MX-1/NOPB/Texas+Instruments/view-part/?ref=snap"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LM386MX-1/NOPB"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LM386MX-1/NOPB/Texas+Instruments/view-part/?ref=eda"
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d9a467f-4966-4bb2-86ab-d4e374c7cc73")
+		)
+		(pin "2"
+			(uuid "5a893afd-747f-4bea-85aa-d55d9b18bc5c")
+		)
+		(pin "7"
+			(uuid "34667f16-1cd9-4aa5-abef-69a55c772495")
+		)
+		(pin "3"
+			(uuid "ed381e04-f29d-400e-b43f-4124bec286ea")
+		)
+		(pin "8"
+			(uuid "18dda1e6-04e1-4f5c-9d52-7eb595c7d7b2")
+		)
+		(pin "4"
+			(uuid "d95e9fc5-40d5-4585-a35e-04109add6c34")
+		)
+		(pin "5"
+			(uuid "eea8b105-2228-4d7a-a5a9-4c2396c38640")
+		)
+		(pin "6"
+			(uuid "fb333b37-a804-44b9-9f49-ce413365e59e")
+		)
+		(instances
+			(project ""
+				(path "/5f921302-c669-4128-a0df-4e379c2479fa"
+					(reference "U1")
 					(unit 1)
 				)
 			)
